@@ -28,7 +28,7 @@
 7. Запушить main на внешний репозиторий - `git add . ; git commit -m "merge Bug report to master" ; git push`
 
 9. В ветке CheckLists набросать структуру чек листа - 
-`git checkout CheckLists ; cat > cheklist_website.txt`
+`git checkout CheckLists ; cat > checklist_web.txt`
 	+ ID
 	+ Title
 	+ Precondition
@@ -38,6 +38,6 @@
 	+ Status
 `Enter` `CTRL+D`
 
-10. Запушить структуру на внешний репозиторий - ` git add . ; git commit -m "add checklist.txt" ; git push`
+10. Запушить структуру на внешний репозиторий - ` git add . ; git commit -m "add checklist_web.txt" ; git push`
 11. На внешнем репозитории сделать Pull Request ветки CheckLists в main - Перейти на веб версию github в нужный репозиторий, изменить ветку на Checklists, нажать `Pull Request`
 12. Синхронизировать Внешнюю и Локальную ветки Main - `git checkout main ; git pull`
