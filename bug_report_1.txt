@@ -8,4 +8,3 @@ Precondition
 Steps_to_reproduce
 Expected_result
 Actual_result
-D
