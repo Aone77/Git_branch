@@ -38,6 +38,6 @@
 	+ Status
 `Enter` `CTRL+D`
 
-10. Запушить структуру на внешний репозиторий - ` git add . ; git commit -m "add checklist_web.txt" ; git push`
-11. На внешнем репозитории сделать Pull Request ветки CheckLists в main - Перейти на веб версию github в нужный репозиторий, изменить ветку на Checklists, нажать `Pull Request`
-12. Синхронизировать Внешнюю и Локальную ветки Main - `git checkout main ; git pull`
+10. Запушить структуру на внешний репозиторий - ` git add . ; git commit -m "add checklist_web.txt" ; git push` (если выдает ошибку, выполнить команду git push -u origin "Checklists")
+12. На внешнем репозитории сделать Pull Request ветки CheckLists в main - Перейти на веб версию github в нужный репозиторий, изменить ветку на Checklists, нажать `Pull Request`
+13. Синхронизировать Внешнюю и Локальную ветки Main - `git checkout main ; git pull`
